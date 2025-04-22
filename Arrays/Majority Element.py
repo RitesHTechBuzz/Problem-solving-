@@ -3,4 +3,4 @@ from collections import Counter
 def majority(self,nums:list[int])->int:
     nums.sort()
     c = Counter(nums)
-    return max(c.keys(),key=c.get)
+    return max(c.keys(),key=c.get) 
